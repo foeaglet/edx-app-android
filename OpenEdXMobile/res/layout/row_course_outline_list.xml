@@ -18,8 +18,7 @@
         android:gravity="center_vertical"
         android:paddingBottom="@dimen/course_item_vertical_padding"
         android:paddingStart="@dimen/course_item_horizontal_padding"
-        android:paddingTop="@dimen/course_item_vertical_padding"
-        tools:targetApi="17">
+        android:paddingTop="@dimen/course_item_vertical_padding">
 
         <org.edx.mobile.view.custom.IconImageViewXml
             android:id="@+id/row_type"
@@ -38,8 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="2dp"
             android:layout_weight="1"
-            android:orientation="vertical"
-            tools:targetApi="17">
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/row_title"
@@ -108,8 +106,7 @@
             android:layout_marginEnd="2dp"
             android:background="@android:color/transparent"
             android:gravity="center"
-            android:paddingEnd="5dp"
-            tools:targetApi="17">
+            android:paddingEnd="5dp">
 
             <TextView
                 android:id="@+id/no_of_videos"
@@ -117,13 +114,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="5dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
                 android:layout_marginStart="5dp"
                 android:textColor="@color/primaryXLightColor"
                 android:textSize="15sp"
                 android:visibility="gone"
-                tools:targetApi="17"
                 tools:text="0" />
 
             <org.edx.mobile.view.custom.IconImageViewXml

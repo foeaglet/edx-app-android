@@ -20,9 +20,9 @@ import org.edx.mobile.util.BrowserUtil;
 import org.edx.mobile.util.Config;
 import org.edx.mobile.util.ConfigUtil;
 import org.edx.mobile.util.NetworkUtil;
-import org.edx.mobile.util.StandardCharsets;
 import org.edx.mobile.util.links.WebViewLink;
 
+import java.nio.charset.StandardCharsets;
 import java.util.HashSet;
 import java.util.Set;
 

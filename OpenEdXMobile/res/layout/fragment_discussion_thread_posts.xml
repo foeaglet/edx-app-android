@@ -36,10 +36,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:layout_marginLeft="@dimen/edx_margin"
                 android:layout_marginStart="@dimen/edx_margin"
-                tools:listitem="@layout/row_discussion_thread_dropdown"
-                tools:targetApi="17" />
+                tools:listitem="@layout/row_discussion_thread_dropdown" />
 
             <androidx.appcompat.widget.AppCompatSpinner
                 android:id="@+id/discussion_posts_sort_spinner"
@@ -47,8 +45,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                tools:listitem="@layout/row_discussion_thread_dropdown"
-                tools:targetApi="17" />
+                tools:listitem="@layout/row_discussion_thread_dropdown" />
 
         </LinearLayout>
 

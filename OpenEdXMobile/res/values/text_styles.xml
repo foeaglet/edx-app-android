@@ -10,20 +10,18 @@
         <item name="android:paddingBottom">7dp</item>
     </style>
 
-    <style name="video_player_title" parent="@style/semibold_white_text" tools:targetApi="17">
+    <style name="video_player_title" parent="@style/semibold_white_text">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:paddingLeft">15dp</item>
-        <item name="android:paddingRight">13dp</item>
+        <item name="android:paddingStart">15dp</item>
+        <item name="android:paddingEnd">13dp</item>
         <item name="android:textSize">14sp</item>
         <item name="android:paddingTop">8dp</item>
         <item name="android:paddingBottom">8dp</item>
         <item name="android:singleLine">true</item>
         <item name="android:ellipsize">end</item>
-        <item name="android:layout_marginLeft">5dp</item>
         <item name="android:layout_marginStart">5dp</item>
-        <item name="android:layout_marginRight">40dp</item>
         <item name="android:layout_marginEnd">40dp</item>
     </style>
 
@@ -179,10 +177,10 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/errorBase</item>
-        <item name="android:gravity" tools:targetApi="17">left|start|center_vertical</item>
+        <item name="android:gravity">start|center_vertical</item>
         <item name="android:textSize">11sp</item>
-        <item name="android:paddingRight">5dp</item>
-        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingEnd">5dp</item>
+        <item name="android:paddingStart">5dp</item>
     </style>
 
     <!-- Registration Instruction Message below fields-->
