@@ -19,7 +19,7 @@
         android:padding="@dimen/edx_margin"
         android:text="@string/video_only_on_web_label"
         android:textAllCaps="true"
-        android:textColor="@color/primaryBaseColor"
+        android:textColor="@color/white"
         android:textSize="14sp" />
 
     <org.edx.mobile.view.custom.IconImageViewXml

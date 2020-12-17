@@ -103,7 +103,7 @@
         <item name="android:textColor">@color/primaryBaseColor</item>
     </style>
 
-    <style name="bold_regular_edx_black_text" parent="@style/bold_text">
+    <style name="bold_edx_black_text" parent="@style/bold_text">
         <item name="android:textColor">@color/neutralBlackT</item>
     </style>
 
