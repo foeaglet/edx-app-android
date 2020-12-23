@@ -68,7 +68,7 @@
             android:gravity="center"
             android:text="@string/label_no"
             android:textAllCaps="true"
-            android:textSize="15sp" />
+            android:textSize="@dimen/video_dialog_button_text_size" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/positiveButton"
@@ -80,7 +80,7 @@
             android:background="@android:color/white"
             android:text="@string/label_yes"
             android:textAllCaps="true"
-            android:textSize="15sp" />
+            android:textSize="@dimen/video_dialog_button_text_size" />
     </LinearLayout>
 
 </LinearLayout>

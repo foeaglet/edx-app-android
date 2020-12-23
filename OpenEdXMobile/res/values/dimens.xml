@@ -274,4 +274,7 @@
     <item name="course_date_title_line_spacing" type="dimen" format="float">1.25</item>
     <item name="course_date_desc_line_spacing" type="dimen" format="float">1.125</item>
 
+    <!--  Video Dialog -->
+    <dimen name="video_dialog_button_text_size">15sp</dimen>
+
 </resources>
