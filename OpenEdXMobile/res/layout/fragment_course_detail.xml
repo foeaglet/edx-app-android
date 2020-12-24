@@ -6,8 +6,8 @@
               android:layout_height="match_parent"
               android:background="@color/white"
               android:orientation="vertical"
-              android:paddingLeft="@dimen/common_course_display_margin_side"
-              android:paddingRight="@dimen/common_course_display_margin_side"
+              android:paddingStart="@dimen/common_course_display_margin_side"
+              android:paddingEnd="@dimen/common_course_display_margin_side"
     >
 
     <TextView

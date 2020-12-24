@@ -57,8 +57,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:paddingLeft="44dp"
-                    android:paddingRight="44dp">
+                    android:paddingStart="44dp"
+                    android:paddingEnd="44dp">
 
                     <org.edx.mobile.view.custom.EdxTextInputLayout
                         android:id="@+id/usernameWrapper"
@@ -67,8 +67,6 @@
                         android:layout_height="wrap_content"
                         android:hint="@string/email_username"
                         android:paddingEnd="-4dp"
-                        android:paddingLeft="-4dp"
-                        android:paddingRight="-4dp"
                         android:paddingStart="-4dp"
                         android:textColorHint="@color/neutralXXDark">
 
@@ -88,8 +86,6 @@
                         android:layout_height="wrap_content"
                         android:hint="@string/password"
                         android:paddingEnd="-4dp"
-                        android:paddingLeft="-4dp"
-                        android:paddingRight="-4dp"
                         android:paddingStart="-4dp"
                         android:textColorHint="@color/neutralXXDark">
 
@@ -165,7 +161,7 @@
                         android:gravity="center_horizontal"
                         android:text=""
                         android:textColor="@color/transparent_black_80"
-                        android:textSize="10sp"
+                        android:textSize="@dimen/edx_xxx_small"
                         android:visibility="invisible" />
                 </LinearLayout>
             </LinearLayout>

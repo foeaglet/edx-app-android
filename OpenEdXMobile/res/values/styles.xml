@@ -340,8 +340,8 @@
 
     <style name="discussion_responses_nested_card_layout">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:paddingLeft">@dimen/discussion_responses_box_padding</item>
-        <item name="android:paddingRight">@dimen/discussion_responses_box_padding</item>
+        <item name="android:paddingStart">@dimen/discussion_responses_box_padding</item>
+        <item name="android:paddingEnd">@dimen/discussion_responses_box_padding</item>
     </style>
 
     <style name="discussion_action_bar_icon">
@@ -372,8 +372,8 @@
     <style name="edX.Widget.EditText">
         <item name="android:background">@drawable/edx_input_background</item>
         <item name="android:textSize">@dimen/edx_small</item>
-        <item name="android:paddingLeft">@dimen/horizontal_input_padding</item>
-        <item name="android:paddingRight">@dimen/horizontal_input_padding</item>
+        <item name="android:paddingStart">@dimen/horizontal_input_padding</item>
+        <item name="android:paddingEnd">@dimen/horizontal_input_padding</item>
         <item name="android:paddingBottom">@dimen/vertical_input_padding</item>
         <item name="android:paddingTop">@dimen/vertical_input_padding</item>
     </style>
@@ -385,8 +385,8 @@
     </style>
 
     <style name="edX.Widget.ActionBrandPillButton" parent="@style/edX.Widget.Button">
-        <item name="android:paddingLeft">@dimen/widget_margin</item>
-        <item name="android:paddingRight">@dimen/widget_margin</item>
+        <item name="android:paddingStart">@dimen/widget_margin</item>
+        <item name="android:paddingEnd">@dimen/widget_margin</item>
         <item name="android:minHeight">@dimen/edx_button_height</item>
         <item name="android:background">@drawable/edx_brand_button</item>
         <item name="android:textColor">@color/edx_brand_button_text</item>
@@ -423,8 +423,8 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/widget_margin</item>
-        <item name="android:paddingLeft">@dimen/widget_margin</item>
-        <item name="android:paddingRight">@dimen/widget_margin</item>
+        <item name="android:paddingStart">@dimen/widget_margin</item>
+        <item name="android:paddingEnd">@dimen/widget_margin</item>
         <item name="android:minHeight">@dimen/edx_button_height</item>
         <item name="android:background">@drawable/edx_brand_single_state_button</item>
     </style>
@@ -455,8 +455,8 @@
         <item name="android:textColor">@color/secondaryBaseColor</item>
         <item name="android:background">@drawable/edx_neutral_dark_bordered_button</item>
         <item name="android:textSize">@dimen/edx_small</item>
-        <item name="android:paddingLeft">@dimen/button_horizontal_padding</item>
-        <item name="android:paddingRight">@dimen/button_horizontal_padding</item>
+        <item name="android:paddingStart">@dimen/button_horizontal_padding</item>
+        <item name="android:paddingEnd">@dimen/button_horizontal_padding</item>
         <item name="android:fontFamily">?attr/fontSemiBold</item>
     </style>
 
@@ -559,8 +559,8 @@
         <item name="android:textSize">@dimen/edx_x_small</item>
         <item name="android:button">@null</item>
         <item name="android:gravity">center</item>
-        <item name="android:paddingLeft">@dimen/horizontal_input_padding</item>
-        <item name="android:paddingRight">@dimen/horizontal_input_padding</item>
+        <item name="android:paddingStart">@dimen/horizontal_input_padding</item>
+        <item name="android:paddingEnd">@dimen/horizontal_input_padding</item>
         <item name="android:paddingBottom">@dimen/vertical_input_padding</item>
         <item name="android:paddingTop">@dimen/vertical_input_padding</item>
         <item name="android:background">@drawable/edx_segmented_control_middle_background</item>

@@ -16,8 +16,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:paddingEnd="@dimen/edx_double_margin"
-            android:paddingLeft="@dimen/edx_double_margin"
-            android:paddingRight="@dimen/edx_double_margin"
             android:paddingStart="@dimen/edx_double_margin">
 
             <ImageView

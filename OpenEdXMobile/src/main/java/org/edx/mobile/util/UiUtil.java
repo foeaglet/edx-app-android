@@ -83,8 +83,8 @@ public class UiUtil {
     public static void adjustCardViewMargins(View cardView) {
         ViewGroup.MarginLayoutParams params = (ViewGroup.MarginLayoutParams) cardView.getLayoutParams();
         params.topMargin -= cardView.getPaddingTop();
-        params.leftMargin -= cardView.getPaddingLeft();
-        params.rightMargin -= cardView.getPaddingRight();
+        params.leftMargin -= cardView.getPaddingStart();
+        params.rightMargin -= cardView.getPaddingEnd();
         cardView.setLayoutParams(params);
     }
 

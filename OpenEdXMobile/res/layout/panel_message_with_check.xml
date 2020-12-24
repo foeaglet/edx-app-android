@@ -8,8 +8,8 @@
     android:layout_marginRight="2dp"
     android:background="@drawable/rectangle_border_background"
     android:orientation="horizontal"
-    android:paddingLeft="0dp"
-    android:paddingRight="0dp"
+    android:paddingStart="0dp"
+    android:paddingEnd="0dp"
     android:paddingTop="0dp">
 
     <ImageView

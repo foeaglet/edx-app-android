@@ -4,8 +4,8 @@
     android:id="@+id/fl_row_course_list_root"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingLeft="@dimen/widget_margin"
-    android:paddingRight="@dimen/widget_margin">
+    android:paddingStart="@dimen/widget_margin"
+    android:paddingEnd="@dimen/widget_margin">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv_background"

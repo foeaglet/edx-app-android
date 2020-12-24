@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <style name="section_title" parent="@style/regular_white_text">
-        <item name="android:paddingLeft">15dp</item>
-        <item name="android:paddingRight">13dp</item>
+        <item name="android:paddingStart">15dp</item>
+        <item name="android:paddingEnd">13dp</item>
         <item name="android:textSize">14sp</item>
         <item name="android:paddingTop">14dp</item>
         <item name="android:paddingBottom">7dp</item>
@@ -35,16 +35,16 @@
     <style name="video_desc" parent="@style/regular_text">
         <item name="android:textColor">@color/transparent_white_30</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:paddingLeft">13dp</item>
-        <item name="android:paddingRight">13dp</item>
+        <item name="android:paddingStart">13dp</item>
+        <item name="android:paddingEnd">13dp</item>
         <item name="android:textSize">13sp</item>
         <item name="android:paddingBottom">14dp</item>
     </style>
 
     <style name="flying_message">
         <item name="android:gravity">center</item>
-        <item name="android:paddingLeft">15dp</item>
-        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingStart">15dp</item>
+        <item name="android:paddingEnd">15dp</item>
         <item name="android:paddingTop">20dp</item>
         <item name="android:paddingBottom">20dp</item>
         <item name="android:textColor">@android:color/white</item>
@@ -134,8 +134,8 @@
         <item name="android:background">@drawable/selectable_box_overlay</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:paddingBottom">@dimen/widget_margin</item>
-        <item name="android:paddingLeft">@dimen/edx_margin</item>
-        <item name="android:paddingRight">@dimen/edx_margin</item>
+        <item name="android:paddingStart">@dimen/edx_margin</item>
+        <item name="android:paddingEnd">@dimen/edx_margin</item>
         <item name="android:paddingTop">@dimen/widget_margin</item>
         <item name="android:textSize">@dimen/edx_base</item>
     </style>
