@@ -31,7 +31,6 @@
                 <FrameLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/edx_margin"
                     android:layout_marginStart="@dimen/edx_margin">
 
                     <de.hdodenhof.circleimageview.CircleImageView
@@ -55,7 +54,6 @@
                     android:id="@+id/username"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/edx_margin"
                     android:layout_marginStart="@dimen/edx_margin"
                     android:layout_weight="1"
                     android:textColor="@color/primaryBaseColor"

@@ -29,8 +29,8 @@
                 android:id="@+id/registrationLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/widget_margin_double"
-                android:layout_marginRight="@dimen/widget_margin_double"
+                android:layout_marginStart="@dimen/widget_margin_double"
+                android:layout_marginEnd="@dimen/widget_margin_double"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -77,8 +77,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/edx_x_small"
-                        android:layout_marginLeft="@dimen/edx_x_small"
-                        android:layout_marginRight="@dimen/edx_x_small"
                         android:layout_marginStart="@dimen/edx_x_small"
                         android:focusable="true"
                         android:text="@string/show_optional_text"

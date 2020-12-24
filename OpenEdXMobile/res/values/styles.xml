@@ -467,7 +467,7 @@
     <style name="edX.Widget.Spinner" parent="Widget.AppCompat.Spinner">
         <!-- We're using the default appcompat spinner background, but the margin beside the dropdown arrow is to small -->
         <!-- Add [edX widget_margin of 10dp] minus [AppCompat background's built-in padding of 7dp] -->
-        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_marginEnd">3dp</item>
         <item name="android:spinnerMode">dropdown</item>
     </style>
 

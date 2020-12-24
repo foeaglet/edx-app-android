@@ -15,7 +15,6 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginEnd="@dimen/edx_margin"
-            android:layout_marginRight="@dimen/edx_margin"
             tools:ignore="ContentDescription"
             tools:src="@color/primaryBaseColor" />
 

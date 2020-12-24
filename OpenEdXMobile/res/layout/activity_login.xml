@@ -30,8 +30,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/login_edx_logo_height"
                     android:layout_marginBottom="@dimen/login_logo_margin_bottom"
-                    android:layout_marginLeft="@dimen/login_logo_margin_horizontal"
-                    android:layout_marginRight="@dimen/login_logo_margin_horizontal"
+                    android:layout_marginStart="@dimen/login_logo_margin_horizontal"
+                    android:layout_marginEnd="@dimen/login_logo_margin_horizontal"
                     android:layout_marginTop="@dimen/login_logo_margin_top">
 
                     <ImageView
