@@ -4,7 +4,11 @@ import android.content.Context;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
-import android.os.Build;
+import android.util.TypedValue;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+
 import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -13,11 +17,6 @@ import androidx.fragment.app.FragmentManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewpager2.widget.ViewPager2;
-
-import android.util.TypedValue;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
 
 import org.edx.mobile.R;
 import org.edx.mobile.base.MainApplication;
@@ -89,13 +88,8 @@ public class UiUtil {
     }
 
     @Nullable
-    @SuppressWarnings("deprecation")
     public static Drawable getDrawable(@NonNull Context context, @DrawableRes int drawableId) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
-            return context.getDrawable(drawableId);
-
-        //noinspection deprecation
-        return context.getResources().getDrawable(drawableId);
+        return context.getDrawable(drawableId);
     }
 
     @DrawableRes

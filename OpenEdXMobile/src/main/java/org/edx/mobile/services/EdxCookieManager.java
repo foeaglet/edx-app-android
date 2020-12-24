@@ -55,10 +55,6 @@ public class EdxCookieManager {
         if ( instance == null ) {
             instance = new EdxCookieManager();
             RoboGuice.getInjector(context).injectMembers(instance);
-
-            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
-                CookieSyncManager.createInstance(context);
-            }
         }
         return instance;
     }

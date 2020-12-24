@@ -35,11 +35,6 @@ public class CourseCardViewHolder extends BaseListAdapter.BaseViewHolder {
                 .findViewById(R.id.course_image);
         this.newCourseContent = convertView
                 .findViewById(R.id.new_course_content_layout);
-        if (android.os.Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
-            // On pre-lollipop devices CardView doesn't support the clipping for round corners
-            // Overlay foreground image is used as a hack for it.
-            convertView.findViewById(R.id.view_foreground_overlay).setVisibility(View.VISIBLE);
-        }
     }
 
     public void setCourseTitle(@NonNull String title) {
