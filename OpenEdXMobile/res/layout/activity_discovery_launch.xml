@@ -43,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/widget_margin_double"
                 android:text="@string/launch_des"
-                android:textColor="@color/edx_brand_primary_base"
+                android:textColor="@color/primaryBaseColor"
                 android:textSize="@dimen/edx_small" />
 
             <TextView
